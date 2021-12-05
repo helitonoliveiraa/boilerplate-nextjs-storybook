@@ -13,7 +13,8 @@ export default createGlobalStyle`
 
   // This is optional, just setup for this project
   html, body, #__next {
-    height: 100%;
+    min-height: -webkit-fill-available;
+    height: -webkit-fill-available;
   }
 
   body {

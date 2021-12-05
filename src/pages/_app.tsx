@@ -8,8 +8,12 @@ export default function App({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <title>React Avançado - Boilerplate</title>
-        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-        <link rel="apple-touch-icon" href="favicon.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
+        <link
+          rel="apple-touch-icon"
+          href="/img/favicon.ico"
+          type="image/x-icon"
+        />
         <meta
           name="description"
           content="A simple project started to work with TypeScript, React, NextJS and Styled Components"
