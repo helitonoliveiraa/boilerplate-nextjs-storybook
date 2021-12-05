@@ -8,7 +8,9 @@
     "lint": "eslint src --max-warnings=0",
     "prepare": "husky install",
     "test": "jest",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "storybook": "start-storybook -s ./public -p 6006",
+    "build-storybook": "build-storybook"
   },
   "lint-staged": {
     "src/**/*.{ts,tsx}": [
@@ -27,13 +29,20 @@
     "styled-components": "^5.3.3"
   },
   "devDependencies": {
+    "@babel/core": "^7.16.0",
     "@babel/preset-typescript": "^7.16.0",
+    "@storybook/addon-actions": "^6.4.7",
+    "@storybook/addon-essentials": "^6.4.7",
+    "@storybook/addon-knobs": "^6.4.0",
+    "@storybook/addon-links": "^6.4.7",
+    "@storybook/react": "^6.4.7",
     "@testing-library/jest-dom": "^5.16.0",
     "@testing-library/react": "^12.1.2",
     "@types/jest": "^27.0.3",
     "@types/react": "^17.0.37",
     "@typescript-eslint/eslint-plugin": "^5.5.0",
     "@typescript-eslint/parser": "^5.5.0",
+    "babel-loader": "^8.2.3",
     "babel-plugin-styled-components": "^2.0.2",
     "commitizen": "^4.2.4",
     "cz-conventional-changelog": "3.3.0",
@@ -43,6 +52,7 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.27.1",
     "eslint-plugin-react-hooks": "^4.3.0",
+    "eslint-plugin-storybook": "^0.5.3",
     "husky": "^7.0.0",
     "jest": "^27.4.3",
     "jest-styled-components": "^7.0.8",
