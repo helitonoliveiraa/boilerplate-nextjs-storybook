@@ -25,13 +25,13 @@
     "@commitlint/config-conventional": "^16.2.1",
     "@types/styled-components": "^5.1.22",
     "next": "12.1.0",
-    "next-pwa": "^5.4.4",
+    "next-pwa": "^5.4.6",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "styled-components": "^5.3.3"
   },
   "devDependencies": {
-    "@babel/core": "^7.17.5",
+    "@babel/core": "^7.17.7",
     "@babel/preset-typescript": "^7.16.7",
     "@storybook/addon-essentials": "^6.4.19",
     "@storybook/react": "^6.4.19",
