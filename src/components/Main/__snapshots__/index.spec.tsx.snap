@@ -1,7 +1,50 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Main /> should render the heading 1`] = `
-<h1>
-  Boilerplate NextJS
-</h1>
+.c0 {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background-color: #fff;
+}
+
+.c0 h1 {
+  font-family: 'Souce Sans Pro',monospace;
+  color: #333;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  position: relative;
+}
+
+.c0 h1::before,
+.c0 h1::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.c0 h1::before {
+  background-color: #fff;
+  -webkit-animation: typewriter 6s 1s steps(19) forwards;
+  animation: typewriter 6s 1s steps(19) forwards;
+}
+
+.c0 h1::after {
+  width: 0.125em;
+  background-color: black;
+  -webkit-animation: typewriter 6s 1s steps(19) forwards,blink 1s steps(19) infinite;
+  animation: typewriter 6s 1s steps(19) forwards,blink 1s steps(19) infinite;
+}
+
+<div
+  class="c0"
+>
+  <h1>
+    Boilerplate NextJS.
+  </h1>
+</div>
 `;
