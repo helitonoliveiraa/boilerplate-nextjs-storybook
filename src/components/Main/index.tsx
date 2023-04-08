@@ -1,10 +1,6 @@
 import * as S from './styles';
 
-const title = 'Boilerplate NextJS.';
-
-console.log(typeof title.length);
-
-export const Main = () => (
+export const Main = ({ title }: { title: string }) => (
   <S.Container quantityLetter={title.length}>
     <h1>{title}</h1>
   </S.Container>
