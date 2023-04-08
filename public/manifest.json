@@ -1,0 +1,14 @@
+
+
+{
+  "name": "boilerplate NextJS",
+  "short_name": "boilerplate",
+  "icons": [
+  ],
+  "theme_color": "#FFFFFF",
+  "background_color": "#FFFFFF",
+  "description": "Boilerlate working with Typescript, React, NextJS e Styled Components!",
+  "start_url": "/",
+  "display": "fullscreen",
+  "orientation": "portrait"
+}
