@@ -16,7 +16,7 @@ This boilerplate was developed using NextJS and is configured with the below tec
 ## :rocket: Star from this project
 
 ```bash
-  $ yarn create next-app -f https://github.com/helitonoliveiraa/boilerplate-nextjs-storybook
+  $ yarn create next-app -e https://github.com/helitonoliveiraa/boilerplate-nextjs-storybook
 
   $ cd boilerplate-nextjs-storybook
 
