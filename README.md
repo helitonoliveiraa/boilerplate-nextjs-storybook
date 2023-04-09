@@ -22,3 +22,7 @@ This boilerplate was developed using NextJS and is configured with the below tec
 
   $ yarn
 ```
+
+<br />
+<br />
+<p align="center">Make by <a href="https://www.linkedin.com/in/helitonoliveira/" target="_blank">Héliton Oliveira</a></p>
